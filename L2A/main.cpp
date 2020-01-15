@@ -39,10 +39,10 @@ int main() {
   double p1XTemp, p1YTemp, p2XTemp, p2YTemp;
   
   cout << Your first X value: "; cin >> p1XTemp;
-  cout << Your first Y value: "; cin >> p1XTemp;
-  cout << Your second X value: "; cin >> p1XTemp;
-  cout << Your second Y value: "; cin >> p1XTemp;
-            
+  cout << Your first Y value: "; cin >> p1YTemp;
+  cout << Your second X value: "; cin >> p2XTemp;
+  cout << Your second Y value: "; cin >> p2YTemp;
+          
   distanceForm()
   
   return 0;
