@@ -17,6 +17,11 @@
 using namespace std;
 
 int main() {
+  double force, stress, acceleration;
+
+  cout << "Enter the Force: "; cin >> force; cout << "Enter the Acceleration: "; cin >> acceleration;
+  stress = force / acceleration;
+  cout << stress;
 
   return 0;
 }
