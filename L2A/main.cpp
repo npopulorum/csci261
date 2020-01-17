@@ -25,7 +25,7 @@ void distanceForm(double point1X, double point2X, double point1Y, double point2Y
   double distanceXTempSq = distanceXTemp * distanceXTemp;
   double distanceYTempSq = distanceYTemp * distanceYTemp;
   
-  double distance = sqrt(distanceXTempSq - distanceYTempSq);
+  double distance = sqrt(distanceXTempSq + distanceYTempSq);
   
   cout << "The distance between the two points is: " << distance << " units" << endl;
   
@@ -37,7 +37,7 @@ int main() {
   cout << "To find the stress on an object: " << endl;
   cout << "Enter the Force: "; cin >> force; cout << "Enter the Acceleration: "; cin >> acceleration;
   stress = force / acceleration;
-  cout << "The stress on the object is: " << stress;
+  cout << "The stress on the object is: " << stress << endl;
   
   double p1XTemp, p1YTemp, p2XTemp, p2YTemp;
   
