@@ -37,7 +37,7 @@ int main() {
   cout << "To find the stress on an object: " << endl;
   cout << "Enter the Force: "; cin >> force; cout << "Enter the Acceleration: "; cin >> acceleration;
   stress = force / acceleration;
-  cout << stress;
+  cout << "The stress on the object is: " << stress;
   
   double p1XTemp, p1YTemp, p2XTemp, p2YTemp;
   
