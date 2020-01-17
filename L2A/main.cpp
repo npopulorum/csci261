@@ -5,6 +5,7 @@
  * Gregory Manley
  * Nathan Populorum
  *
+ * Created
  * Copyright © 2020 Gregory Manley and Nathan Populorum. All rights Reserved.
  *
  * L2A Pair programming introduction
@@ -16,8 +17,8 @@
 
 using namespace std;
 
-void distanceForm(double point1X, point2X, point1Y, point2Y) {
-  double distanceXTemp = point2X - point1X; 
+void distanceForm(double point1X, double point2X, double point1Y, double point2Y) {
+  double distanceXTemp = point2X - point1X;
   double distanceYTemp = point2Y - point1Y;
   
   double distanceXTempSq = distanceXTemp * distanceXTemp;
@@ -43,7 +44,7 @@ int main() {
   cout << "Your second X value: "; cin >> p2XTemp;
   cout << "Your second Y value: "; cin >> p2YTemp;
           
-  distanceForm(p1XTemp, p2XTemp, p1YTemp, p2YTemp)
+  distanceForm(p1XTemp, p2XTemp, p1YTemp, p2YTemp);
   
   return 0;
 }
