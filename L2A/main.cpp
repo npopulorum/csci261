@@ -1,4 +1,5 @@
-/*
+/* CSCI 261: L2A
+ *
  * main.cpp
  * L2A
  *
@@ -8,7 +9,7 @@
  * Created
  * Copyright © 2020 Gregory Manley and Nathan Populorum. All rights Reserved.
  *
- * L2A Pair programming introduction
+ * L2A Pair programming Introduction
  */
 
 #include <iostream>
@@ -33,12 +34,14 @@ void distanceForm(double point1X, double point2X, double point1Y, double point2Y
 int main() {
   double force, stress, acceleration;
 
+  cout << "To find the stress on an object: " << endl;
   cout << "Enter the Force: "; cin >> force; cout << "Enter the Acceleration: "; cin >> acceleration;
   stress = force / acceleration;
   cout << stress;
   
   double p1XTemp, p1YTemp, p2XTemp, p2YTemp;
   
+  cout << "For the distance between two points: " << endl;
   cout << "Your first X value: "; cin >> p1XTemp;
   cout << "Your first Y value: "; cin >> p1YTemp;
   cout << "Your second X value: "; cin >> p2XTemp;
